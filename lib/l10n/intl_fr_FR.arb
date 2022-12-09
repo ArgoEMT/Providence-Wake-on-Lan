@@ -1,0 +1,47 @@
+{
+  "create": "Créer",
+  "save": "Modifier",
+  "adresseMacInvalide": "Adresse MAC invalide",
+  "adresseMac": "Adresse MAC*",
+  "adresseIpInvalide": "Adresse IP invalide",
+  "adresseIp": "Adresse IP*",
+  "nom": "Nom*",
+  "nouvelleConnexion": "Nouvelle connexion",
+  "ceChampEstRequis": "Ce champ est requis",
+  "mesConnexions": "Mes connexions",
+  "tentativeDePingSur": "Tentative de ping sur ipAddress",
+  "@tentativeDePingSur": {
+    "description": "Ping attempt on $ipAddress",
+    "placeholders": {
+      "ipAddress": {
+        "type": "String",
+        "example": "255.255.255.255"
+      }
+    }
+  },
+  "voulezvousVraimentSupprimerCetteConnexion": "Voulez-vous vraiment supprimer cette connexion ?",
+  "supprimerLaConnexion": "Supprimer la connexion",
+  "annuler": "Annuler",
+  "erreurLorsDeLenvoiDuMagicPacketE": "Erreur lors de l\\'envoi du magic packet : errorMessage",
+  "@erreurLorsDeLenvoiDuMagicPacketE": {
+    "description": "Error message when magic packet fail",
+    "placeholders": {
+      "errorMessage": {
+        "type": "String",
+        "example": "Failure to send magic packet"
+      }
+    }
+  },
+  "magicPacketEnvoyConnectionname": "Magic packet envoyé à connectionName",
+  "@magicPacketEnvoyConnectionname": {
+    "description": "Message when magic packet succeed",
+    "placeholders": {
+      "connectionName": {
+        "type": "String",
+        "example": "Connection 1"
+      }
+    }
+  },
+  "supprimer": "Supprimer",
+  "port": "Port"
+}
